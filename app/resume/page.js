@@ -20,11 +20,11 @@ const Resume = () => {
 
         <Center height="85vh" position='relative'>
           <AspectRatio ratio={4 / 4} maxW='800px' w='100%' h='88%'>
-            <iframe src="resume.pdf#view=fitH" width="100%" height="100%" title="Resume"></iframe>
+            <iframe src="/resume.pdf#view=fitH" width="100%" height="100%" title="Resume"></iframe>
           </AspectRatio>
         </Center>
 
-        <Link src='/resume.pdf' download {...linkStyles} _hover={{ textDecoration: 'underline' }}>
+        <Link href="resume.pdf" download {...linkStyles} _hover={{ textDecoration: 'underline' }}>
           Download Resume
         </Link>
       </Transition >
