@@ -1,6 +1,6 @@
 'use client'
 
-import { Box, Center, AspectRatio, Link } from '@chakra-ui/react';
+import { Box, Center, Link, Image } from '@chakra-ui/react';
 import NavBar from '../../components/NavBar';
 import Transition from '../../components/Transition';
 
@@ -9,6 +9,7 @@ const Resume = () => {
     color: 'black',
     textDecoration: 'none',
     position: 'absolute',
+    paddingTop: '60px',
     left: '50%',
     transform: 'translate(-50%, -50%)',
   };
@@ -19,12 +20,12 @@ const Resume = () => {
       <Transition>
 
         <Center height="85vh" position='relative'>
-          <AspectRatio ratio={4 / 4} maxW='800px' w='100%' h='88%'>
-            <iframe src="/resume.pdf" width="100%" height="100%" title="Resume"></iframe>
-          </AspectRatio>
+          <Box border='1px gray solid'>
+            <Image src='/resume.png' alt='resume' ></Image>
+          </Box>
         </Center>
 
-        <Link href="/resume.pdf" download="resume.pdf" {...linkStyles} _hover={{ textDecoration: 'underline' }}>
+        <Link href="/resumepdf.pdf" download="resumepdf.pdf" {...linkStyles} _hover={{ textDecoration: 'underline' }}>
           Download Resume
         </Link>
       </Transition >
