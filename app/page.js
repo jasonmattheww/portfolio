@@ -1,3 +1,5 @@
+// eslint-dsiable react/no-unescaped-entities 
+
 'use client'
 
 import NavBar from '../components/NavBar';
