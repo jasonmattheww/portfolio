@@ -24,7 +24,7 @@ const Resume = () => {
           </AspectRatio>
         </Center>
 
-        <Link href="Resume.pdf" download {...linkStyles} _hover={{ textDecoration: 'underline' }}>
+        <Link src='/resume.pdf' download {...linkStyles} _hover={{ textDecoration: 'underline' }}>
           Download Resume
         </Link>
       </Transition >
