@@ -53,7 +53,7 @@ export default function Home() {
             <Heading as='h3' style={headText}>About</Heading>
             <Text style={pText}>
               Hi, my name is Jason Torrealba i'm a passoniate software developer who likes to build applications and learn about new technologies.
-              In my free time I like to go out and be in nature, read, spend time with family, and play soccer or working out.</Text>
+              In my free time I like to go out to be in nature, read, spend time with family, play soccer, and work out.</Text>
           </Box>
 
           <Box>
