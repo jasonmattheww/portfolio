@@ -52,8 +52,8 @@ export default function Home() {
           <Box className='remove-padding-top' pb='5px' pt='25px'>
             <Heading as='h3' style={headText}>About</Heading>
             <Text style={pText}>
-              Hi, my name is Jason Torrealba i'm a passoniate software developr who likes to built applications and learn about new technologies.
-              Feel free to aslwoas do osmeting blalalbal and that then out of the place dummy text jus to see how page looks.</Text>
+              Hi, my name is Jason Torrealba i'm a passoniate software developer who likes to build applications and learn about new technologies.
+              In my free time I like to go out and be in nature, read, spend time with family, and play soccer or working out.</Text>
           </Box>
 
           <Box>
