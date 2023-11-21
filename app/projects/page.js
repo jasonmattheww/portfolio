@@ -10,21 +10,21 @@ const Projects = () => {
   const projectsData = [
     {
       id: 1,
-      src: '/rhythmreviews.png',
+      src: '/rhythmreviewsv2.png',
       title: 'Rhythm Reviews',
       description: 'Discover new music and artists with our music review platform, to explore different genres plus read and write reviews.',
-      stack: 'Express.js / MySQL / Node.js',
-      github: 'https://github.com/group7-project2/rhythm-reviews',
-      website: 'https://rhythm-reviews-8a43a75413f9.herokuapp.com/'
+      stack: 'React / MongoDB / Node.JS / JWT',
+      github: 'https://github.com/group2-project3/rhythm-reviews-2.0',
+      website: 'https://rhythm-reviews-v2-a30efa7f58da.herokuapp.com/'
     },
     {
       id: 2,
-      src: '/weatherapp.png',
-      title: 'Weather App',
-      description: 'Search multiple cities to see what the current forecast is as well as the next five days.',
-      stack: 'JS / Open Weather API',
-      github: 'https://github.com/jasonmattheww/weather-app',
-      website: 'https://jasonmattheww.github.io/weather-app/'
+      src: '/techblog.png',
+      title: 'Tech Blog',
+      description: 'Tech blog where developers can publish their blog posts and comment on other developers posts.',
+      stack: 'MySQL / Express.JS / Node.JS ',
+      github: 'https://github.com/jasonmattheww/tech-blog',
+      website: 'https://tech-blog-be-43803630257e.herokuapp.com/'
     },
     {
       id: 3,
@@ -37,12 +37,12 @@ const Projects = () => {
     },
     {
       id: 4,
-      src: '/notetaker.png',
-      title: 'Note Taker',
-      description: 'Simple note-taking application to jot down quick notes and ideas to keep everything organized.',
-      stack: 'Express.js / Node.js',
-      github: 'https://github.com/jasonmattheww/note-taker-app',
-      website: 'https://mighty-island-36271-d09f67296834.herokuapp.com/'
+      src: '/weatherapp.png',
+      title: 'Weather App',
+      description: 'Search multiple cities to see what the current forecast is as well as the next five days.',
+      stack: 'JS / Open Weather API',
+      github: 'https://github.com/jasonmattheww/weather-app',
+      website: 'https://jasonmattheww.github.io/weather-app/'
     },
   ];
 
