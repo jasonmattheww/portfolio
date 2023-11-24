@@ -28,21 +28,21 @@ const Projects = () => {
     },
     {
       id: 3,
+      src: '/justtechnews.png',
+      title: 'Just Tech News',
+      description: 'Tech news blog where you can publish your own posts, comment on others, and upvote posts.',
+      stack: 'Flask / PyMySQL / SQLAlchemy',
+      github: 'https://github.com/jasonmattheww/just-tech-news',
+      website: 'https://just-tech-newss-9fcfe257fa1e.herokuapp.com/'
+    },
+    {
+      id: 4,
       src: '/NXTZ Sports.png',
       title: 'NXTZ Sports',
       description: 'Quick and easy way to find your favorite football player stats from all major leagues across the world.',
       stack: 'JS / RapidAPI / TheSportsDB API',
       github: 'https://github.com/zach-hoover/NXTZ-sports',
       website: 'https://zach-hoover.github.io/NXTZ-sports/'
-    },
-    {
-      id: 4,
-      src: '/weatherapp.png',
-      title: 'Weather App',
-      description: 'Search multiple cities to see what the current forecast is as well as the next five days.',
-      stack: 'JS / Open Weather API',
-      github: 'https://github.com/jasonmattheww/weather-app',
-      website: 'https://jasonmattheww.github.io/weather-app/'
     },
   ];
 
