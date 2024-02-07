@@ -17,7 +17,7 @@ const NavBar = () => {
         <Link as={NextLink} href="/projects" {...linkStyles} _hover={{ textDecoration: 'underline' }}>
           Projects
         </Link>
-        <Link href="/resume.pdf" download="resumepdf.pdf" {...linkStyles} _hover={{ textDecoration: 'underline' }}>
+        <Link href="/TorrealbaJason_Resume.pdf" download="TorrealbaJason_Resume.pdf" {...linkStyles} _hover={{ textDecoration: 'underline' }}>
           Resume <DownloadIcon  pb='1px'/>
         </Link>
       </Flex>
